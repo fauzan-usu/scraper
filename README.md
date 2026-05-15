@@ -1,7 +1,7 @@
 # JDIH Sumatera Utara — LLM Database Builder
 ## Panduan Lengkap Penggunaan
 
-**Penulis:** Fauzan Nur Ahmadi, S.Kom., M.Cs., Universitas Sumatera Utara  
+**Penulis:** DR. Fauzan Nur Ahmadi, S.Kom., M.Cs., Universitas Sumatera Utara  
 **Tujuan:** Membangun corpus hukum dari JDIH Sumatera Utara untuk pelatihan dan retrieval LLM
 
 ---
