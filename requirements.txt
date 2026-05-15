@@ -1,0 +1,30 @@
+# ═══════════════════════════════════════════════════════════
+#  JDIH Sumatera Utara — LLM Database Builder
+#  Dependensi Python
+# ═══════════════════════════════════════════════════════════
+
+# ── Core scraping ──────────────────────────────────────────
+requests>=2.31.0          # HTTP client
+beautifulsoup4>=4.12.0    # HTML parser
+lxml>=5.0.0               # Parser backend (cepat)
+
+# ── Ekstraksi PDF ──────────────────────────────────────────
+PyMuPDF>=1.24.0           # Ekstraksi teks dari PDF (fitz)
+                          # Untuk PDF hasil scan (OCR), tambahkan:
+                          # pytesseract>=0.3.10
+                          # Pillow>=10.0.0
+
+# ── Progress & display ────────────────────────────────────
+tqdm>=4.66.0              # Progress bar CLI
+rich>=13.0.0              # Output terminal berwarna
+
+# ── Embedding & FAISS (untuk rag_indexer.py) ─────────────
+sentence-transformers>=2.7.0  # Model embedding multibahasa
+faiss-cpu>=1.8.0              # Vector similarity search (CPU)
+                              # Ganti ke faiss-gpu jika ada GPU
+numpy>=1.26.0                 # Array numerik
+
+# ── Opsional: fine-tuning LLM ─────────────────────────────
+# transformers>=4.40.0
+# datasets>=2.19.0
+# torch>=2.2.0
